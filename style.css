@@ -2,3 +2,106 @@
     margin: 0;
     padding: 0;
 }
+.bg-main{
+    background-color: #00B207;
+}
+.bg-black-main{
+    background-color: #333333;
+    color: #999999;
+}
+.text-main{
+    color: #00B207;
+}
+.bg-orange{
+    background-color: #FF8A00;
+}
+.text-orange{
+    color: #FF8A00;
+}
+.span-color{
+    background-color: #f2f2f2;
+}
+.bg{
+    background-color: #dadad9;
+}
+.big-banner{
+    background-image: url(./Images/image-1.jpg);
+}
+.small-banner-1{
+    background-image: url(./Images/image-2.png);
+}
+.small-banner-2{
+    background-image: url(./Images/image-3.png);
+}
+.type-1{
+    background-image: url(./Images/type-1.png);
+}
+.type-2{
+    background-image: url(./Images/type-2.png);
+}
+.type-3{
+    background-image: url(./Images/type-3.png);
+}
+.disc-container{
+    background-image: url(./Images/disc-1.jpg);
+    height: 300px;
+}
+.inst-1{
+    background-image: url(./Images/inst-1.jpg);
+    height: 200px;
+}
+.inst-2{
+    background-image: url(./Images/inst-2.png);
+    height: 200px;
+}
+.inst-3{
+    background-image: url(./Images/inst-3.png);
+    height: 200px;
+}
+.inst-4{
+    background-image: url(./Images/inst-4.png);
+    height: 200px;
+}
+.inst-5{
+    background-image: url(./Images/inst-5.png);
+    height: 200px;
+}
+.inst-6{
+    background-image: url(./Images/inst-6.png);
+    height: 200px;
+}
+
+.h-100{
+    height: 450px;
+    font-family: sans-serif;
+}
+.w-15{
+    width: 15%;
+}
+@media screen and (max-width: 768) {
+    .w-15{
+        width: 30%;
+    }
+
+.main-header{
+    display: none;
+    
+}
+
+.contact-items{
+    display: none;
+}
+    
+}
+
+/* Contact styles */
+
+.main-header{
+    background-image: url(./Images/contact-1.jpg);
+    height: 100px;
+}
+
+.contact-items{
+    background-image: url(./Images/contact-2.png);
+    height: 300px;
+}
