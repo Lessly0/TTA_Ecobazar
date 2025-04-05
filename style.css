@@ -78,19 +78,17 @@
 .w-15{
     width: 15%;
 }
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
     .w-15{
         width: 30%;
     }
 
-.main-header{
+.main-header,
+.contact-items
+{
     display: none;
-    
 }
 
-.contact-items{
-    display: none;
-}
     
 }
 
@@ -104,4 +102,15 @@
 .contact-items{
     background-image: url(./Images/contact-2.png);
     height: 300px;
+}
+
+/* Blog styles */
+
+.blog-gallery{
+    height: 80px;
+
+}
+.blog-disc-container{
+    background-image: url(./Images/single-4.png);
+    height: 200px;
 }
